@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>cnBeta X Reader</title>
+        <meta name="description" content="cnBeta X Reader">
+        <style type="text/css"> 
+            #title {width: 96%; margin: 0 auto}
+            #source {font-size: 16px; line-height: 30px; width: 96%; margin: 0 auto; color: #666}
+            #time {font-size: 16px; line-height: 30px; width: 100%; color: #666}
+            #summary_sign {width: 98%; margin: 16px auto -20px auto}
+            #summary {font-size: 18px; line-height: 30px; width: 96%; margin: 0 auto; text-indent: 2em;}
+            #content {font-size: 18px; line-height: 30px; width: 96%; margin: 0 auto; text-indent: 2em;}
+            #content img {width: 100%!important; height: auto!important; display: block!important;}
+            #content iframe {width: 100%; display: block;}
+            #content embed {width: 100%; display: block;}
+        </style> 
+        
+    </head>
+    
+    <body>
+        <div id="title">
+            <h2>${Title}</h2>
+        </div>
+        
+        <div id="source">
+            ${Source}&nbsp&nbsp&nbsp&nbsp${Time}
+        </div>
+        
+        <div id="summary_sign">
+            <img width="60" height="60" src="file:///android_asset/summary.png" />
+        </div>
+        
+        <div id="summary">
+            ${Summary}
+        </div>
+        
+        <div id="content">
+            ${Content}
+        </div>
+    </body>
+    
+    <script> 
+    var e=document.getElementById("source").getElementsByTagName('A'); 
+    e[0].removeAttribute("href") ;
+    </script> 
+</html>

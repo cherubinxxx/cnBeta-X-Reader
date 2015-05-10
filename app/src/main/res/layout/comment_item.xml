@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/comment_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#666"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#222"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/comment_time_icon"
+            android:layout_width="14dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/time" />
+
+        <TextView
+            android:id="@+id/comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="14sp"
+            android:textColor="#888"
+            android:layout_toRightOf="@+id/comment_time_icon" />
+
+        <ImageView
+            android:id="@+id/comment_support_icon"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/support"
+            android:layout_toLeftOf="@+id/comment_support" />
+
+        <TextView
+            android:id="@+id/comment_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="16dp"
+            android:textSize="14sp"
+            android:textColor="#888"
+            android:layout_toLeftOf="@+id/comment_against_icon" />
+
+        <ImageView
+            android:id="@+id/comment_against_icon"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/against"
+            android:layout_toLeftOf="@+id/comment_against" />
+
+        <TextView
+            android:id="@+id/comment_against"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="16dp"
+            android:textSize="14sp"
+            android:textColor="#888"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

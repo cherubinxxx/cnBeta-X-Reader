@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_primary">#0bf</color>
+    <color name="theme_primary_dark">#0af</color>
+
+    <color name="theme_primary_pressed">#0bf</color>
+    <color name="theme_accent">#0bf</color>
+
+    <color name="action_bar">#fff</color>
+    <color name="content_background">#fff</color>
+
+    <color name="ripple">#0bf</color>
+
+    <color name="item_onclick">#ddd</color>
+
+    <color name="content_text_color">#333</color>
+
+</resources>

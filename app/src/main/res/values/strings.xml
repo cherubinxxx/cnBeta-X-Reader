@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">cnBeta X Reader</string>
+    <string name="content">内容</string>
+    <string name="comment">评论</string>
+    <string name="settings">设置</string>
+    <string name="update_proj">更新计划</string>
+    <string name="about">关于</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_browser">从浏览器中打开</string>
+    <string name="action_settings">设置</string>
+    <string name="comments">评论</string>
+
+</resources>

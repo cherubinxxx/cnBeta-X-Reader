@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cherubinxxx.cnbetaxreader" >
+
+    <!-- 加入访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme" >
+        <activity
+            android:name=".UI.NewsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.ContentActivity"
+            android:label="@string/content"
+            android:exported="false"
+            android:theme="@style/Transparent_Theme" >
+        </activity>
+        <activity
+            android:name=".UI.CommentActivity"
+            android:label="@string/comment"
+            android:exported="false"
+            android:theme="@style/Transparent_Theme" >
+        </activity>
+        <activity
+            android:name=".UI.SettingsActivity"
+            android:label="@string/settings"
+            android:exported="false"
+            android:theme="@style/Transparent_Theme" >
+        </activity>
+        <activity
+            android:name=".UI.UpdateActivity"
+            android:label="@string/update_proj"
+            android:exported="false"
+            android:theme="@style/Transparent_Theme" >
+        </activity>
+        <activity
+            android:name=".UI.AboutActivity"
+            android:label="@string/about"
+            android:exported="false"
+            android:theme="@style/Transparent_Theme" >
+        </activity>
+    </application>
+
+</manifest>
