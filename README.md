@@ -5,6 +5,9 @@ A reader for cnbeta.com.
 Email : cherubinxxx@gmail.com  
 QQ : 104814225
 
+# Version
+0.8.2.0402  
+
 # Pre Requisites
 support-v4:22.0.0  
 appcompat-v7:22.0.0  
@@ -15,7 +18,8 @@ recyclerview-v7:22.0.0
 [volley:1.0.15](https://github.com/mcxiaoke/android-volley)  
 
 # Thanks
-Junyue
+Junyue  
 NashLegend - [Activity滑动返回操作，像iOS的UINavigationController、知乎的Android版那样](http://nashlegend.blog.51cto.com/5635342/1568629)   
+...(Let me think)  
 
-# ...
+# Thinking...
