@@ -7,10 +7,8 @@
 .DS_Store
 /build
 /gradle
-build.gradle
 cnBetaXReader.iml
 gradle.properties
 gradlew
 gradlew.bat
-settings.gradle
 Sign.jks
