@@ -1,12 +1,19 @@
 # cnBeta X Reader
-A reader for cnbeta.com.
+A reader for cnbeta.com.  
 
 > Author : Cherubinxxx  
 Email : cherubinxxx@gmail.com  
-QQ : 104814225
+QQ : 104814225  
 
 # Version
-0.8.2.0402  
+[0.8.2.0402](https://github.com/cherubinxxx/cnBeta-X-Reader/raw/master/cnBetaXReader.0.8.2.0402.apk)  
+  
+# Preview
+![](preview/process.gif)  
+![](preview/NewsActivity.jpg)  
+![](preview/ContentActivity.jpg)  
+![](preview/CommentActivity.jpg)  
+![](preview/AboutActivity.jpg)  
 
 # Pre Requisites
 support-v4:22.0.0  
