@@ -12,9 +12,9 @@ QQ : 104814225
   
 ## Preview
 ![](preview/process.gif)  
-![](preview/NewsActivity.jpg)  
+![](preview/NewsActivity.jpg)
 ![](preview/ContentActivity.jpg)  
-![](preview/CommentActivity.jpg)  
+![](preview/CommentActivity.jpg)
 ![](preview/AboutActivity.jpg)  
 
 ## Pre Requisites
